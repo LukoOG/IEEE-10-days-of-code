@@ -28,7 +28,7 @@ This project implements a basic **CRUD (Create, Read, Update, Delete)** Notes AP
 
 ## Project Structure
 
-\`\`\`text
+```text
 notes-api/
 │── app/
 │   ├── main.py
@@ -38,7 +38,7 @@ notes-api/
 │── requirements.txt
 │── README.md
 └── .gitignore
-\`\`\`
+```
 
 ### File Breakdown
 
@@ -54,39 +54,39 @@ notes-api/
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+```bash
 git clone <your-repository-url>
 cd notes-api
-\`\`\`
+```
 
 ### 2. Create a Virtual Environment
 
 **macOS/Linux:**
 
-\`\`\`bash
+```bash
 python -m venv venv
 source venv/bin/activate
-\`\`\`
+```
 
 **Windows:**
 
-\`\`\`bash
+```bash
 python -m venv venv
 venv\Scripts\activate
-\`\`\`
+```
 
 ### 3. Install Dependencies
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 > **Note:** If `requirements.txt` does not exist yet, run:
 >
-> \`\`\`bash
+> ```bash
 > pip install fastapi uvicorn
 > pip freeze > requirements.txt
-> \`\`\`
+> ```
 
 ---
 
@@ -94,15 +94,15 @@ pip install -r requirements.txt
 
 Start the development server:
 
-\`\`\`bash
+```bash
 uvicorn app.main:app --reload
-\`\`\`
+```
 
 You should see output similar to:
 
-\`\`\`
+```
 INFO:     Uvicorn running on http://127.0.0.1:8000
-\`\`\`
+```
 
 The API is now running locally.
 
