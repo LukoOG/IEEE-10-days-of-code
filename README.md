@@ -56,7 +56,7 @@ notes-api/
 
 ```bash
 git clone https://github.com/LukoOG/IEEE-10-days-of-code
-cd notes-api
+cd IEEE-10-days-of-code
 ```
 
 ### 2. Create a Virtual Environment
