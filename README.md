@@ -55,7 +55,7 @@ notes-api/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/LukoOG/IEEE-10-days-of-code
 cd notes-api
 ```
 
@@ -80,13 +80,6 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-
-> **Note:** If `requirements.txt` does not exist yet, run:
->
-> ```bash
-> pip install fastapi uvicorn
-> pip freeze > requirements.txt
-> ```
 
 ---
 
