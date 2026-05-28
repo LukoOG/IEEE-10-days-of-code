@@ -12,7 +12,7 @@ class Note(Base):
     title: Mapped[str]
     content: Mapped[str]
 
-    owner_id: Mapped[str] = mapped_column(ForeignKey="users.id")
+    owner_id: Mapped[str] = mapped_column(ForeignKey("users.id"))
 
     owner = relationship(
         "User",
